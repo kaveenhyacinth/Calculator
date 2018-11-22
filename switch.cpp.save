@@ -1,0 +1,43 @@
+#include "header.hpp"
+#include "stdfunc.hpp"
+
+void select();
+
+void select()
+{
+    cout << "\nEnter your  expression as [no1 operator no2] -> (x + y)\n\n";
+    cin >> no1 >> operation >> no2;
+
+   switch(operation)
+   {
+    case('+'):
+        {
+            add(no1, no2);
+            break;
+        }
+    case('-'):
+        {
+            substract(no1, no2);
+            break;
+        }
+    case('*'):
+        {
+            multiply(no1, no2);
+            break;
+        }
+    case('/'):
+        {
+            devide(no1, no2);
+            break;
+        }
+    case('%'):
+        {
+            mod(no1, no2);
+            break;
+        }
+    default:
+        cout << "\nOOPS! We are currently not supporting to this function.";
+    }
+
+}
+

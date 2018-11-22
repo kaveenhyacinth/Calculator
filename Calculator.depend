@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1542884314 source:d:\programming\[c++]\bootcamp\calculator\main.cpp
+	"header.hpp"
+	"switch.hpp"
+
+1542883473 d:\programming\[c++]\bootcamp\calculator\header.hpp
+	<iostream>
+	<cmath>
+	<cstdlib>
+	<string>
+
+1542885033 d:\programming\[c++]\bootcamp\calculator\stdfunc.hpp
+	"header.hpp"
+
+1542883767 source:d:\programming\[c++]\bootcamp\calculator\switch.cpp
+
+1542885372 d:\programming\[c++]\bootcamp\calculator\switch.hpp
+	"header.hpp"
+	"variable.hpp"
+	"stdfunc.hpp"
+
+1542883473 d:\programming\[c++]\bootcamp\calculator\variable.hpp
+	"header.hpp"
+
